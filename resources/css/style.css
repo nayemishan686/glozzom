@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.5;
+}
+/* Navbar */
+.navbar.bg-dark{
+    background-color: #000 !important;
+}
+.navbar a{
+    font-size: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 20px;
+}
+
+/* Home-Section */
+.carousel-item{
+    height: 500px;
+}
+.img1{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.31)), url('../img/image1.jpeg') no-repeat  center;
+    background-size: cover;
+}
+.img2{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.31)), url('../img/image2.jpeg') no-repeat top center;
+    background-size: cover;
+}
+.img3{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.31)), url('../img/image3.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+/* Home-icon */
+#home-icon i,
+#card-section i{
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+/* get-started */
+.get-started{
+    position: relative;
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.63)),  url('../img/bg1.jpeg') no-repeat top;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+/* Vedio */
+#vedio-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.54)), url('../img/people.jpeg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 250px;
+    color: #fff;
+}
+#vedio-section i{
+    font-size: 50px;
+    color: #fa0303;
+    border-radius: none;
+}
+#photo-gellary img{
+    height: 300px;
+    width: 100%;
+}
+#end{
+    background-color: #000 !important;
+}
+
+
+
+/* =========================
+        About US
+===========================*/
+#aboutus{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.37)), url(../img/image1.jpeg) no-repeat top center;
+    background-size: cover;
+    height: 250px;
+    color: #fff;
+    
+}
+.slick-prev::before,
+.slick-next::before{
+    color: #000;
+}
+
+
+/* =========================
+        Service
+===========================*/
+#service{
+    background: url('../img/image3.jpeg') no-repeat top center;
+    color: #fff;
+}
+.btn-link {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    background-color: #fff;
+}
+.btn-link:hover{
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+}
+
+
+/* =========================
+        BLog
+===========================*/
+#blog{
+    background: url('../img/image2.jpeg') no-repeat center;
+    color: #fff;
+    -webkit-background-size: cover;
+    background-size: cover ;
+}
+.card-img-top{
+    height: 200px;
+}
+
+/* =========================
+        Contact
+===========================*/
+#contact{
+    background:  linear-gradient(rgba(0, 0, 0, 0.6) ,rgba(0, 0, 0, 0.51)) ,  url('../img/image6.jpeg') no-repeat top center;
+    color: #fff;
+    -webkit-background-size: cover;
+    background-size: cover ;
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+    .display-4{
+        font-size: 40px;
+    }
+    
+}
